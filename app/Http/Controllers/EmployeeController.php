@@ -20,6 +20,7 @@ class EmployeeController extends Controller
             'last_name' => 'required|string',
             'job_title' => 'required|string',
             'department' => 'required|string',
+            'emp_id' => 'required|string',
         ]);
 
         $employee = Employee::create($validated);
