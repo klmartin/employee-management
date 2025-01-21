@@ -14,7 +14,7 @@ Route::post('/addemployees', function (Request $request) {
         'last_name' => 'required|string',
         'job_title' => 'required|string',
         'department' => 'required|string',
-        'emp_id, => 'required|string',
+        'emp_id', => 'required|string',
     ]);
 
     // Create a new employee record using the validated data
