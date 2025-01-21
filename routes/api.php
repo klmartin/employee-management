@@ -7,7 +7,7 @@ use App\Models\Employee;
 Route::get('employees', [EmployeeController::class, 'index']);
 Route::post('employees', [EmployeeController::class, 'store']);
 
-Route::post('addemployees', function (Request $request) {
+Route::post('/addemployees', function (Request $request) {
     // Validate incoming request data
     $validated = $request->validate([
         'first_name' => 'required|string',
