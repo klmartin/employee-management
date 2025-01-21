@@ -15,5 +15,6 @@ class Employee extends Model
         'last_name',
         'job_title',
         'department',
+        'emp_id'
     ];
 }
